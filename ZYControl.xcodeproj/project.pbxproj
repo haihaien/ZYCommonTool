@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9B0E3CB1D0E94FC00E0984A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B0E3CA1D0E94FC00E0984A /* main.m */; };
+		E9B0E3CE1D0E94FC00E0984A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B0E3CD1D0E94FC00E0984A /* AppDelegate.m */; };
+		E9B0E3D11D0E94FC00E0984A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B0E3D01D0E94FC00E0984A /* ViewController.m */; };
+		E9B0E3D41D0E94FC00E0984A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B0E3D21D0E94FC00E0984A /* Main.storyboard */; };
+		E9B0E3D61D0E94FC00E0984A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9B0E3D51D0E94FC00E0984A /* Assets.xcassets */; };
+		E9B0E3D91D0E94FC00E0984A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B0E3D71D0E94FC00E0984A /* LaunchScreen.storyboard */; };
+		E9B0E3E41D0E94FC00E0984A /* ZYControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B0E3E31D0E94FC00E0984A /* ZYControlTests.m */; };
+		E9B0E3EF1D0E94FC00E0984A /* ZYControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B0E3EE1D0E94FC00E0984A /* ZYControlUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9B0E3E01D0E94FC00E0984A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9B0E3BE1D0E94FC00E0984A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9B0E3C51D0E94FC00E0984A;
+			remoteInfo = ZYControl;
+		};
+		E9B0E3EB1D0E94FC00E0984A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9B0E3BE1D0E94FC00E0984A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9B0E3C51D0E94FC00E0984A;
+			remoteInfo = ZYControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9B0E3C61D0E94FC00E0984A /* ZYControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B0E3CA1D0E94FC00E0984A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9B0E3CC1D0E94FC00E0984A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9B0E3CD1D0E94FC00E0984A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9B0E3CF1D0E94FC00E0984A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E9B0E3D01D0E94FC00E0984A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9B0E3D31D0E94FC00E0984A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9B0E3D51D0E94FC00E0984A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9B0E3D81D0E94FC00E0984A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9B0E3DA1D0E94FC00E0984A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9B0E3DF1D0E94FC00E0984A /* ZYControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B0E3E31D0E94FC00E0984A /* ZYControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYControlTests.m; sourceTree = "<group>"; };
+		E9B0E3E51D0E94FC00E0984A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9B0E3EA1D0E94FC00E0984A /* ZYControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B0E3EE1D0E94FC00E0984A /* ZYControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYControlUITests.m; sourceTree = "<group>"; };
+		E9B0E3F01D0E94FC00E0984A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9B0E3C31D0E94FC00E0984A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B0E3DC1D0E94FC00E0984A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B0E3E71D0E94FC00E0984A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9B0E3BD1D0E94FC00E0984A = {
+			isa = PBXGroup;
+			children = (
+				E9B0E3C81D0E94FC00E0984A /* ZYControl */,
+				E9B0E3E21D0E94FC00E0984A /* ZYControlTests */,
+				E9B0E3ED1D0E94FC00E0984A /* ZYControlUITests */,
+				E9B0E3C71D0E94FC00E0984A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9B0E3C71D0E94FC00E0984A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9B0E3C61D0E94FC00E0984A /* ZYControl.app */,
+				E9B0E3DF1D0E94FC00E0984A /* ZYControlTests.xctest */,
+				E9B0E3EA1D0E94FC00E0984A /* ZYControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9B0E3C81D0E94FC00E0984A /* ZYControl */ = {
+			isa = PBXGroup;
+			children = (
+				E9B0E3CC1D0E94FC00E0984A /* AppDelegate.h */,
+				E9B0E3CD1D0E94FC00E0984A /* AppDelegate.m */,
+				E9B0E3CF1D0E94FC00E0984A /* ViewController.h */,
+				E9B0E3D01D0E94FC00E0984A /* ViewController.m */,
+				E9B0E3D21D0E94FC00E0984A /* Main.storyboard */,
+				E9B0E3D51D0E94FC00E0984A /* Assets.xcassets */,
+				E9B0E3D71D0E94FC00E0984A /* LaunchScreen.storyboard */,
+				E9B0E3DA1D0E94FC00E0984A /* Info.plist */,
+				E9B0E3C91D0E94FC00E0984A /* Supporting Files */,
+			);
+			path = ZYControl;
+			sourceTree = "<group>";
+		};
+		E9B0E3C91D0E94FC00E0984A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9B0E3CA1D0E94FC00E0984A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9B0E3E21D0E94FC00E0984A /* ZYControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9B0E3E31D0E94FC00E0984A /* ZYControlTests.m */,
+				E9B0E3E51D0E94FC00E0984A /* Info.plist */,
+			);
+			path = ZYControlTests;
+			sourceTree = "<group>";
+		};
+		E9B0E3ED1D0E94FC00E0984A /* ZYControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9B0E3EE1D0E94FC00E0984A /* ZYControlUITests.m */,
+				E9B0E3F01D0E94FC00E0984A /* Info.plist */,
+			);
+			path = ZYControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9B0E3C51D0E94FC00E0984A /* ZYControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B0E3F31D0E94FC00E0984A /* Build configuration list for PBXNativeTarget "ZYControl" */;
+			buildPhases = (
+				E9B0E3C21D0E94FC00E0984A /* Sources */,
+				E9B0E3C31D0E94FC00E0984A /* Frameworks */,
+				E9B0E3C41D0E94FC00E0984A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYControl;
+			productName = ZYControl;
+			productReference = E9B0E3C61D0E94FC00E0984A /* ZYControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9B0E3DE1D0E94FC00E0984A /* ZYControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B0E3F61D0E94FC00E0984A /* Build configuration list for PBXNativeTarget "ZYControlTests" */;
+			buildPhases = (
+				E9B0E3DB1D0E94FC00E0984A /* Sources */,
+				E9B0E3DC1D0E94FC00E0984A /* Frameworks */,
+				E9B0E3DD1D0E94FC00E0984A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9B0E3E11D0E94FC00E0984A /* PBXTargetDependency */,
+			);
+			name = ZYControlTests;
+			productName = ZYControlTests;
+			productReference = E9B0E3DF1D0E94FC00E0984A /* ZYControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9B0E3E91D0E94FC00E0984A /* ZYControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B0E3F91D0E94FC00E0984A /* Build configuration list for PBXNativeTarget "ZYControlUITests" */;
+			buildPhases = (
+				E9B0E3E61D0E94FC00E0984A /* Sources */,
+				E9B0E3E71D0E94FC00E0984A /* Frameworks */,
+				E9B0E3E81D0E94FC00E0984A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9B0E3EC1D0E94FC00E0984A /* PBXTargetDependency */,
+			);
+			name = ZYControlUITests;
+			productName = ZYControlUITests;
+			productReference = E9B0E3EA1D0E94FC00E0984A /* ZYControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9B0E3BE1D0E94FC00E0984A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "LeMo-test";
+				TargetAttributes = {
+					E9B0E3C51D0E94FC00E0984A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E9B0E3DE1D0E94FC00E0984A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E9B0E3C51D0E94FC00E0984A;
+					};
+					E9B0E3E91D0E94FC00E0984A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E9B0E3C51D0E94FC00E0984A;
+					};
+				};
+			};
+			buildConfigurationList = E9B0E3C11D0E94FC00E0984A /* Build configuration list for PBXProject "ZYControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9B0E3BD1D0E94FC00E0984A;
+			productRefGroup = E9B0E3C71D0E94FC00E0984A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9B0E3C51D0E94FC00E0984A /* ZYControl */,
+				E9B0E3DE1D0E94FC00E0984A /* ZYControlTests */,
+				E9B0E3E91D0E94FC00E0984A /* ZYControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9B0E3C41D0E94FC00E0984A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B0E3D91D0E94FC00E0984A /* LaunchScreen.storyboard in Resources */,
+				E9B0E3D61D0E94FC00E0984A /* Assets.xcassets in Resources */,
+				E9B0E3D41D0E94FC00E0984A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B0E3DD1D0E94FC00E0984A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B0E3E81D0E94FC00E0984A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9B0E3C21D0E94FC00E0984A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B0E3D11D0E94FC00E0984A /* ViewController.m in Sources */,
+				E9B0E3CE1D0E94FC00E0984A /* AppDelegate.m in Sources */,
+				E9B0E3CB1D0E94FC00E0984A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B0E3DB1D0E94FC00E0984A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B0E3E41D0E94FC00E0984A /* ZYControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B0E3E61D0E94FC00E0984A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B0E3EF1D0E94FC00E0984A /* ZYControlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9B0E3E11D0E94FC00E0984A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9B0E3C51D0E94FC00E0984A /* ZYControl */;
+			targetProxy = E9B0E3E01D0E94FC00E0984A /* PBXContainerItemProxy */;
+		};
+		E9B0E3EC1D0E94FC00E0984A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9B0E3C51D0E94FC00E0984A /* ZYControl */;
+			targetProxy = E9B0E3EB1D0E94FC00E0984A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9B0E3D21D0E94FC00E0984A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B0E3D31D0E94FC00E0984A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9B0E3D71D0E94FC00E0984A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B0E3D81D0E94FC00E0984A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9B0E3F11D0E94FC00E0984A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9B0E3F21D0E94FC00E0984A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9B0E3F41D0E94FC00E0984A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZYControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9B0E3F51D0E94FC00E0984A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZYControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E9B0E3F71D0E94FC00E0984A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZYControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYControl.app/ZYControl";
+			};
+			name = Debug;
+		};
+		E9B0E3F81D0E94FC00E0984A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZYControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYControl.app/ZYControl";
+			};
+			name = Release;
+		};
+		E9B0E3FA1D0E94FC00E0984A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZYControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYControl;
+			};
+			name = Debug;
+		};
+		E9B0E3FB1D0E94FC00E0984A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZYControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9B0E3C11D0E94FC00E0984A /* Build configuration list for PBXProject "ZYControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B0E3F11D0E94FC00E0984A /* Debug */,
+				E9B0E3F21D0E94FC00E0984A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B0E3F31D0E94FC00E0984A /* Build configuration list for PBXNativeTarget "ZYControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B0E3F41D0E94FC00E0984A /* Debug */,
+				E9B0E3F51D0E94FC00E0984A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9B0E3F61D0E94FC00E0984A /* Build configuration list for PBXNativeTarget "ZYControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B0E3F71D0E94FC00E0984A /* Debug */,
+				E9B0E3F81D0E94FC00E0984A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9B0E3F91D0E94FC00E0984A /* Build configuration list for PBXNativeTarget "ZYControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B0E3FA1D0E94FC00E0984A /* Debug */,
+				E9B0E3FB1D0E94FC00E0984A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9B0E3BE1D0E94FC00E0984A /* Project object */;
+}
