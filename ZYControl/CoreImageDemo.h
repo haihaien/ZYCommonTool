@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 typedef enum ImageType{
     MOSAIC    =0,//马晒客
     QRCode    =1,  //二维码

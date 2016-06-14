@@ -43,8 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6602779CA25DC1B95ED15DC7 /* Pods-ZYControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYControl/Pods-ZYControl.debug.xcconfig"; sourceTree = "<group>"; };
-		C12E8BBE803F31153361E034 /* Pods-ZYControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYControl/Pods-ZYControl.release.xcconfig"; sourceTree = "<group>"; };
+		7053873EEE1BB299FC383CB3 /* Pods-ZYControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYControl/Pods-ZYControl.release.xcconfig"; sourceTree = "<group>"; };
+		D794249DFCC6A0891D09B443 /* Pods-ZYControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYControl/Pods-ZYControl.debug.xcconfig"; sourceTree = "<group>"; };
 		E97A9BF31D0FD73400A5E745 /* CoreImageDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreImageDemo.h; sourceTree = "<group>"; };
 		E97A9BF41D0FD73400A5E745 /* CoreImageDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreImageDemo.m; sourceTree = "<group>"; };
 		E97A9BF61D0FDEC900A5E745 /* aa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aa.jpg; sourceTree = "<group>"; };
@@ -104,11 +104,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13D5652C3F245E8C892D1A51 /* Pods */ = {
+		A2AECF5CFF0CA9058DA79FAC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6602779CA25DC1B95ED15DC7 /* Pods-ZYControl.debug.xcconfig */,
-				C12E8BBE803F31153361E034 /* Pods-ZYControl.release.xcconfig */,
+				D794249DFCC6A0891D09B443 /* Pods-ZYControl.debug.xcconfig */,
+				7053873EEE1BB299FC383CB3 /* Pods-ZYControl.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -159,8 +159,8 @@
 				E9B0E3E21D0E94FC00E0984A /* ZYControlTests */,
 				E9B0E3ED1D0E94FC00E0984A /* ZYControlUITests */,
 				E9B0E3C71D0E94FC00E0984A /* Products */,
-				13D5652C3F245E8C892D1A51 /* Pods */,
 				FFE3346263724390C4D7B91F /* Frameworks */,
+				A2AECF5CFF0CA9058DA79FAC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -246,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9B0E3F31D0E94FC00E0984A /* Build configuration list for PBXNativeTarget "ZYControl" */;
 			buildPhases = (
+				BA80617F3144F4365E0DDDE0 /* [CP] Check Pods Manifest.lock */,
 				E9B0E3C21D0E94FC00E0984A /* Sources */,
 				E9B0E3C31D0E94FC00E0984A /* Frameworks */,
 				E9B0E3C41D0E94FC00E0984A /* Resources */,
+				CA341E66DBE061AC34830773 /* [CP] Embed Pods Frameworks */,
+				40AF6D501EBD6943D71B2C24 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -364,6 +367,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40AF6D501EBD6943D71B2C24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYControl/Pods-ZYControl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA80617F3144F4365E0DDDE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA341E66DBE061AC34830773 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYControl/Pods-ZYControl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E9B0E3C21D0E94FC00E0984A /* Sources */ = {
@@ -519,7 +570,7 @@
 		};
 		E9B0E3F41D0E94FC00E0984A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6602779CA25DC1B95ED15DC7 /* Pods-ZYControl.debug.xcconfig */;
+			baseConfigurationReference = D794249DFCC6A0891D09B443 /* Pods-ZYControl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -535,7 +586,7 @@
 		};
 		E9B0E3F51D0E94FC00E0984A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C12E8BBE803F31153361E034 /* Pods-ZYControl.release.xcconfig */;
+			baseConfigurationReference = 7053873EEE1BB299FC383CB3 /* Pods-ZYControl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
