@@ -246,12 +246,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9B0E3F31D0E94FC00E0984A /* Build configuration list for PBXNativeTarget "ZYControl" */;
 			buildPhases = (
-				592DC6A3005653A64B86E97D /* [CP] Check Pods Manifest.lock */,
 				E9B0E3C21D0E94FC00E0984A /* Sources */,
 				E9B0E3C31D0E94FC00E0984A /* Frameworks */,
 				E9B0E3C41D0E94FC00E0984A /* Resources */,
-				D09399551633263FC43FA141 /* [CP] Embed Pods Frameworks */,
-				B08295EDF9CFCC043F7D52D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -367,54 +364,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		592DC6A3005653A64B86E97D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B08295EDF9CFCC043F7D52D1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYControl/Pods-ZYControl-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D09399551633263FC43FA141 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYControl/Pods-ZYControl-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E9B0E3C21D0E94FC00E0984A /* Sources */ = {
