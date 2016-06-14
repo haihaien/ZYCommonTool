@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CC3B4FF68EF946CF517B997 /* libPods-ZYControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF1BA1DFC443E30EA24CC65 /* libPods-ZYControl.a */; };
+		E97A9BF51D0FD73400A5E745 /* CoreImageDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = E97A9BF41D0FD73400A5E745 /* CoreImageDemo.m */; };
+		E97A9BF71D0FDEC900A5E745 /* aa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E97A9BF61D0FDEC900A5E745 /* aa.jpg */; };
+		E97A9BFA1D0FDFC700A5E745 /* CoreImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E97A9BF91D0FDFC700A5E745 /* CoreImageViewController.m */; };
+		E97A9C3D1D0FF88400A5E745 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E97A9C3C1D0FF88400A5E745 /* ScanViewController.m */; };
+		E97A9C401D0FFB1D00A5E745 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E97A9C3F1D0FFB1D00A5E745 /* WebViewController.m */; };
+		E97A9C451D101B4500A5E745 /* ChangeNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E97A9C441D101B4500A5E745 /* ChangeNavViewController.m */; };
 		E9B0E3CB1D0E94FC00E0984A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B0E3CA1D0E94FC00E0984A /* main.m */; };
 		E9B0E3CE1D0E94FC00E0984A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B0E3CD1D0E94FC00E0984A /* AppDelegate.m */; };
 		E9B0E3D11D0E94FC00E0984A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B0E3D01D0E94FC00E0984A /* ViewController.m */; };
@@ -15,6 +22,7 @@
 		E9B0E3D91D0E94FC00E0984A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B0E3D71D0E94FC00E0984A /* LaunchScreen.storyboard */; };
 		E9B0E3E41D0E94FC00E0984A /* ZYControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B0E3E31D0E94FC00E0984A /* ZYControlTests.m */; };
 		E9B0E3EF1D0E94FC00E0984A /* ZYControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B0E3EE1D0E94FC00E0984A /* ZYControlUITests.m */; };
+		E9B0E3FF1D0E954400E0984A /* ZYSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B0E3FE1D0E954400E0984A /* ZYSlide.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6602779CA25DC1B95ED15DC7 /* Pods-ZYControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYControl/Pods-ZYControl.debug.xcconfig"; sourceTree = "<group>"; };
+		C12E8BBE803F31153361E034 /* Pods-ZYControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYControl/Pods-ZYControl.release.xcconfig"; sourceTree = "<group>"; };
+		E97A9BF31D0FD73400A5E745 /* CoreImageDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreImageDemo.h; sourceTree = "<group>"; };
+		E97A9BF41D0FD73400A5E745 /* CoreImageDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreImageDemo.m; sourceTree = "<group>"; };
+		E97A9BF61D0FDEC900A5E745 /* aa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aa.jpg; sourceTree = "<group>"; };
+		E97A9BF81D0FDFC700A5E745 /* CoreImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreImageViewController.h; sourceTree = "<group>"; };
+		E97A9BF91D0FDFC700A5E745 /* CoreImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreImageViewController.m; sourceTree = "<group>"; };
+		E97A9C3B1D0FF88400A5E745 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		E97A9C3C1D0FF88400A5E745 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		E97A9C3E1D0FFB1D00A5E745 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		E97A9C3F1D0FFB1D00A5E745 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		E97A9C431D101B4500A5E745 /* ChangeNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeNavViewController.h; sourceTree = "<group>"; };
+		E97A9C441D101B4500A5E745 /* ChangeNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeNavViewController.m; sourceTree = "<group>"; };
 		E9B0E3C61D0E94FC00E0984A /* ZYControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B0E3CA1D0E94FC00E0984A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9B0E3CC1D0E94FC00E0984A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +72,10 @@
 		E9B0E3EA1D0E94FC00E0984A /* ZYControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B0E3EE1D0E94FC00E0984A /* ZYControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYControlUITests.m; sourceTree = "<group>"; };
 		E9B0E3F01D0E94FC00E0984A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9B0E3FD1D0E954400E0984A /* ZYSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSlide.h; sourceTree = "<group>"; };
+		E9B0E3FE1D0E954400E0984A /* ZYSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSlide.m; sourceTree = "<group>"; };
+		E9B0E4001D0EB16100E0984A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EBF1BA1DFC443E30EA24CC65 /* libPods-ZYControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYControl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CC3B4FF68EF946CF517B997 /* libPods-ZYControl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +104,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13D5652C3F245E8C892D1A51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6602779CA25DC1B95ED15DC7 /* Pods-ZYControl.debug.xcconfig */,
+				C12E8BBE803F31153361E034 /* Pods-ZYControl.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E97A9BF21D0FD6ED00A5E745 /* Core Image */ = {
+			isa = PBXGroup;
+			children = (
+				E97A9BF31D0FD73400A5E745 /* CoreImageDemo.h */,
+				E97A9BF41D0FD73400A5E745 /* CoreImageDemo.m */,
+				E97A9BF61D0FDEC900A5E745 /* aa.jpg */,
+				E97A9BF81D0FDFC700A5E745 /* CoreImageViewController.h */,
+				E97A9BF91D0FDFC700A5E745 /* CoreImageViewController.m */,
+			);
+			name = "Core Image";
+			sourceTree = "<group>";
+		};
+		E97A9C3A1D0FF85300A5E745 /* AVFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				E97A9C3B1D0FF88400A5E745 /* ScanViewController.h */,
+				E97A9C3C1D0FF88400A5E745 /* ScanViewController.m */,
+				E97A9C3E1D0FFB1D00A5E745 /* WebViewController.h */,
+				E97A9C3F1D0FFB1D00A5E745 /* WebViewController.m */,
+			);
+			name = AVFoundation;
+			sourceTree = "<group>";
+		};
+		E97A9C411D101B1900A5E745 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		E97A9C421D101B2200A5E745 /* Navagation */ = {
+			isa = PBXGroup;
+			children = (
+				E97A9C431D101B4500A5E745 /* ChangeNavViewController.h */,
+				E97A9C441D101B4500A5E745 /* ChangeNavViewController.m */,
+			);
+			name = Navagation;
+			sourceTree = "<group>";
+		};
 		E9B0E3BD1D0E94FC00E0984A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +159,8 @@
 				E9B0E3E21D0E94FC00E0984A /* ZYControlTests */,
 				E9B0E3ED1D0E94FC00E0984A /* ZYControlUITests */,
 				E9B0E3C71D0E94FC00E0984A /* Products */,
+				13D5652C3F245E8C892D1A51 /* Pods */,
+				FFE3346263724390C4D7B91F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +177,10 @@
 		E9B0E3C81D0E94FC00E0984A /* ZYControl */ = {
 			isa = PBXGroup;
 			children = (
+				E97A9C421D101B2200A5E745 /* Navagation */,
+				E97A9C3A1D0FF85300A5E745 /* AVFoundation */,
+				E97A9BF21D0FD6ED00A5E745 /* Core Image */,
+				E9B0E3FC1D0E951800E0984A /* SlideControl */,
 				E9B0E3CC1D0E94FC00E0984A /* AppDelegate.h */,
 				E9B0E3CD1D0E94FC00E0984A /* AppDelegate.m */,
 				E9B0E3CF1D0E94FC00E0984A /* ViewController.h */,
@@ -110,6 +190,7 @@
 				E9B0E3D71D0E94FC00E0984A /* LaunchScreen.storyboard */,
 				E9B0E3DA1D0E94FC00E0984A /* Info.plist */,
 				E9B0E3C91D0E94FC00E0984A /* Supporting Files */,
+				E9B0E4001D0EB16100E0984A /* PrefixHeader.pch */,
 			);
 			path = ZYControl;
 			sourceTree = "<group>";
@@ -140,6 +221,24 @@
 			path = ZYControlUITests;
 			sourceTree = "<group>";
 		};
+		E9B0E3FC1D0E951800E0984A /* SlideControl */ = {
+			isa = PBXGroup;
+			children = (
+				E97A9C411D101B1900A5E745 /* New Group */,
+				E9B0E3FD1D0E954400E0984A /* ZYSlide.h */,
+				E9B0E3FE1D0E954400E0984A /* ZYSlide.m */,
+			);
+			name = SlideControl;
+			sourceTree = "<group>";
+		};
+		FFE3346263724390C4D7B91F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBF1BA1DFC443E30EA24CC65 /* libPods-ZYControl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9B0E3F31D0E94FC00E0984A /* Build configuration list for PBXNativeTarget "ZYControl" */;
 			buildPhases = (
+				592DC6A3005653A64B86E97D /* [CP] Check Pods Manifest.lock */,
 				E9B0E3C21D0E94FC00E0984A /* Sources */,
 				E9B0E3C31D0E94FC00E0984A /* Frameworks */,
 				E9B0E3C41D0E94FC00E0984A /* Resources */,
+				D09399551633263FC43FA141 /* [CP] Embed Pods Frameworks */,
+				B08295EDF9CFCC043F7D52D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,6 +348,7 @@
 				E9B0E3D91D0E94FC00E0984A /* LaunchScreen.storyboard in Resources */,
 				E9B0E3D61D0E94FC00E0984A /* Assets.xcassets in Resources */,
 				E9B0E3D41D0E94FC00E0984A /* Main.storyboard in Resources */,
+				E97A9BF71D0FDEC900A5E745 /* aa.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,12 +368,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		592DC6A3005653A64B86E97D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B08295EDF9CFCC043F7D52D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYControl/Pods-ZYControl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D09399551633263FC43FA141 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYControl/Pods-ZYControl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E9B0E3C21D0E94FC00E0984A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9B0E3FF1D0E954400E0984A /* ZYSlide.m in Sources */,
 				E9B0E3D11D0E94FC00E0984A /* ViewController.m in Sources */,
+				E97A9BF51D0FD73400A5E745 /* CoreImageDemo.m in Sources */,
+				E97A9C451D101B4500A5E745 /* ChangeNavViewController.m in Sources */,
+				E97A9C401D0FFB1D00A5E745 /* WebViewController.m in Sources */,
+				E97A9BFA1D0FDFC700A5E745 /* CoreImageViewController.m in Sources */,
+				E97A9C3D1D0FF88400A5E745 /* ScanViewController.m in Sources */,
 				E9B0E3CE1D0E94FC00E0984A /* AppDelegate.m in Sources */,
 				E9B0E3CB1D0E94FC00E0984A /* main.m in Sources */,
 			);
@@ -413,9 +570,14 @@
 		};
 		E9B0E3F41D0E94FC00E0984A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6602779CA25DC1B95ED15DC7 /* Pods-ZYControl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 凌霄 钱 (Z35H8VJ7F3)";
+				GCC_PREFIX_HEADER = "$(SCROOT)ZYControl/PrefixHeader.pch";
 				INFOPLIST_FILE = ZYControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.ZYControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,9 +586,14 @@
 		};
 		E9B0E3F51D0E94FC00E0984A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C12E8BBE803F31153361E034 /* Pods-ZYControl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 凌霄 钱 (Z35H8VJ7F3)";
+				GCC_PREFIX_HEADER = "$(SCROOT)ZYControl/PrefixHeader.pch";
 				INFOPLIST_FILE = ZYControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.ZYControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +665,7 @@
 				E9B0E3F51D0E94FC00E0984A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9B0E3F61D0E94FC00E0984A /* Build configuration list for PBXNativeTarget "ZYControlTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +674,7 @@
 				E9B0E3F81D0E94FC00E0984A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9B0E3F91D0E94FC00E0984A /* Build configuration list for PBXNativeTarget "ZYControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +683,7 @@
 				E9B0E3FB1D0E94FC00E0984A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

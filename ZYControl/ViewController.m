@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "ZYSlide.h"
+#import "CoreImageViewController.h"
+@interface ViewController ()<ZYSlideDelegate>
 
 @end
 
@@ -16,7 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    ZYSlide *ZY = [[ZYSlide alloc] initWithFrame:CGRectMake(10, 100, 300, 30) WithAnimation:0];
+    ZY.delegate=self;
+    ZY.titleArry = [@[@"小",@"中",@"大",@"特大"]mutableCopy];
+    [self.view addSubview:ZY];
+
+    
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
+}
+-(void)ZYSlideView:(ZYSlide *)zyslide WithChangeValue:(CGFloat)currentValue
+{
+    NSLog(@"%f",currentValue);
+
 }
 
 - (void)didReceiveMemoryWarning {
