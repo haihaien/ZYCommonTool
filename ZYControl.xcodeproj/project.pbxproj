@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		9CC3B4FF68EF946CF517B997 /* libPods-ZYControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF1BA1DFC443E30EA24CC65 /* libPods-ZYControl.a */; };
+		E9184AD51D10F66E0031558D /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9184AD41D10F66E0031558D /* PersonViewController.m */; };
 		E97A9BF51D0FD73400A5E745 /* CoreImageDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = E97A9BF41D0FD73400A5E745 /* CoreImageDemo.m */; };
 		E97A9BF71D0FDEC900A5E745 /* aa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E97A9BF61D0FDEC900A5E745 /* aa.jpg */; };
 		E97A9BFA1D0FDFC700A5E745 /* CoreImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E97A9BF91D0FDFC700A5E745 /* CoreImageViewController.m */; };
 		E97A9C3D1D0FF88400A5E745 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E97A9C3C1D0FF88400A5E745 /* ScanViewController.m */; };
 		E97A9C401D0FFB1D00A5E745 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E97A9C3F1D0FFB1D00A5E745 /* WebViewController.m */; };
 		E97A9C451D101B4500A5E745 /* ChangeNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E97A9C441D101B4500A5E745 /* ChangeNavViewController.m */; };
+		E98181F31D111B700062321B /* ZYCheckTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E98181F21D111B700062321B /* ZYCheckTool.m */; };
+		E98181F61D11227C0062321B /* QRCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E98181F51D11227C0062321B /* QRCodeManager.m */; };
 		E9B0E3CB1D0E94FC00E0984A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B0E3CA1D0E94FC00E0984A /* main.m */; };
 		E9B0E3CE1D0E94FC00E0984A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B0E3CD1D0E94FC00E0984A /* AppDelegate.m */; };
 		E9B0E3D11D0E94FC00E0984A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B0E3D01D0E94FC00E0984A /* ViewController.m */; };
@@ -45,6 +48,8 @@
 /* Begin PBXFileReference section */
 		7053873EEE1BB299FC383CB3 /* Pods-ZYControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYControl/Pods-ZYControl.release.xcconfig"; sourceTree = "<group>"; };
 		D794249DFCC6A0891D09B443 /* Pods-ZYControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYControl/Pods-ZYControl.debug.xcconfig"; sourceTree = "<group>"; };
+		E9184AD31D10F66E0031558D /* PersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		E9184AD41D10F66E0031558D /* PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
 		E97A9BF31D0FD73400A5E745 /* CoreImageDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreImageDemo.h; sourceTree = "<group>"; };
 		E97A9BF41D0FD73400A5E745 /* CoreImageDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreImageDemo.m; sourceTree = "<group>"; };
 		E97A9BF61D0FDEC900A5E745 /* aa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aa.jpg; sourceTree = "<group>"; };
@@ -56,6 +61,10 @@
 		E97A9C3F1D0FFB1D00A5E745 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		E97A9C431D101B4500A5E745 /* ChangeNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeNavViewController.h; sourceTree = "<group>"; };
 		E97A9C441D101B4500A5E745 /* ChangeNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeNavViewController.m; sourceTree = "<group>"; };
+		E98181F11D111B700062321B /* ZYCheckTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCheckTool.h; sourceTree = "<group>"; };
+		E98181F21D111B700062321B /* ZYCheckTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCheckTool.m; sourceTree = "<group>"; };
+		E98181F41D11227C0062321B /* QRCodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeManager.h; sourceTree = "<group>"; };
+		E98181F51D11227C0062321B /* QRCodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeManager.m; sourceTree = "<group>"; };
 		E9B0E3C61D0E94FC00E0984A /* ZYControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B0E3CA1D0E94FC00E0984A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9B0E3CC1D0E94FC00E0984A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,9 +122,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E9184AD21D10F0EA0031558D /* Person Center */ = {
+			isa = PBXGroup;
+			children = (
+				E9184AD31D10F66E0031558D /* PersonViewController.h */,
+				E9184AD41D10F66E0031558D /* PersonViewController.m */,
+				E98181F11D111B700062321B /* ZYCheckTool.h */,
+				E98181F21D111B700062321B /* ZYCheckTool.m */,
+			);
+			name = "Person Center";
+			sourceTree = "<group>";
+		};
 		E97A9BF21D0FD6ED00A5E745 /* Core Image */ = {
 			isa = PBXGroup;
 			children = (
+				E98181F41D11227C0062321B /* QRCodeManager.h */,
+				E98181F51D11227C0062321B /* QRCodeManager.m */,
 				E97A9BF31D0FD73400A5E745 /* CoreImageDemo.h */,
 				E97A9BF41D0FD73400A5E745 /* CoreImageDemo.m */,
 				E97A9BF61D0FDEC900A5E745 /* aa.jpg */,
@@ -177,6 +199,7 @@
 		E9B0E3C81D0E94FC00E0984A /* ZYControl */ = {
 			isa = PBXGroup;
 			children = (
+				E9184AD21D10F0EA0031558D /* Person Center */,
 				E97A9C421D101B2200A5E745 /* Navagation */,
 				E97A9C3A1D0FF85300A5E745 /* AVFoundation */,
 				E97A9BF21D0FD6ED00A5E745 /* Core Image */,
@@ -424,9 +447,12 @@
 				E9B0E3FF1D0E954400E0984A /* ZYSlide.m in Sources */,
 				E9B0E3D11D0E94FC00E0984A /* ViewController.m in Sources */,
 				E97A9BF51D0FD73400A5E745 /* CoreImageDemo.m in Sources */,
+				E98181F61D11227C0062321B /* QRCodeManager.m in Sources */,
 				E97A9C451D101B4500A5E745 /* ChangeNavViewController.m in Sources */,
 				E97A9C401D0FFB1D00A5E745 /* WebViewController.m in Sources */,
+				E9184AD51D10F66E0031558D /* PersonViewController.m in Sources */,
 				E97A9BFA1D0FDFC700A5E745 /* CoreImageViewController.m in Sources */,
+				E98181F31D111B700062321B /* ZYCheckTool.m in Sources */,
 				E97A9C3D1D0FF88400A5E745 /* ScanViewController.m in Sources */,
 				E9B0E3CE1D0E94FC00E0984A /* AppDelegate.m in Sources */,
 				E9B0E3CB1D0E94FC00E0984A /* main.m in Sources */,
